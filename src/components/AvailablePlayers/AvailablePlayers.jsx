@@ -8,12 +8,12 @@ const AvailablePlayers = ({ availablePlayersPromise }) => {
 
   return (
     <>
-      {/* <div className="mt-13 mb-4 max-w-[1320px] mx-auto">
-        <h3>Available Players</h3>
-      </div> */}
-      <div className="mt-13 max-w-[1320px] mx-auto grid grid-cols-4 gap-6">
+      <div className="mt-13 max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {availablePlayers.map((availablePlayer) => (
-          <div className="card bg-base-100 shadow-sm p-4">
+          <div
+            key={availablePlayer.id}
+            className="card bg-base-100 shadow-sm p-4"
+          >
             <figure>
               <img
                 className="w-full h-60 rounded-lg bg-[#f3f7f8] object-contain"
