@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "playerImage": "https://i.ibb.co.com/mCwhYLSb/11-500x500.png",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 9.5,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 120000
+  },
+  {
+    "id": 2,
+    "playerImage": "https://i.ibb.co.com/pBYJyHvp/141.png",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playingRole": "All-rounder",
+    "rating": 9.2,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "price": 150000
+  },
+  {
+    "id": 3,
+    "playerImage": "https://i.ibb.co.com/hJJbZkc5/63881.webp",
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 8.8,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 95000
+  },
+  {
+    "id": 4,
+    "playerImage": "https://i.ibb.co.com/CKWzShCd/544-camedia.png",
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 8.6,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 100000
+  },
+  {
+    "id": 5,
+    "playerImage": "https://i.ibb.co.com/jxTGYGv/676-camedia.png",
+    "playerName": "Imran Tahir",
+    "playerCountry": "South Africa",
+    "playingRole": "Bowler",
+    "rating": 8.4,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Legbreak googly",
+    "price": 80000
+  },
+  {
+    "id": 6,
+    "playerImage": "https://i.ibb.co.com/5gdsV4HV/image-28795-1637233611.jpg",
+    "playerName": "Mahmudullah Riyad",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 8.7,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 90000
+  },
+  {
+    "id": 7,
+    "playerImage": "https://i.ibb.co.com/LXBL1rQc/image-46491-1645629861.png",
+    "playerName": "Afif Hossain",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 7.9,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 70000
+  },
+  {
+    "id": 8,
+    "playerImage": "https://i.ibb.co.com/0VMz9CcN/375.png",
+    "playerName": "Dasun Shanaka",
+    "playerCountry": "Sri Lanka",
+    "playingRole": "All-rounder",
+    "rating": 8.3,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm medium",
+    "price": 85000
+  },
+  {
+    "id": 9,
+    "playerImage": "https://i.ibb.co.com/zHLfGQ28/image-129551-1686064874.png",
+    "playerName": "Taskin Ahmed",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 8.1,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "price": 78000
+  },
+  {
+    "id": 10,
+    "playerImage": "https://i.ibb.co.com/JRbp91GQ/830-camedia.png",
+    "playerName": "Nasir Hossain",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 7.5,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 65000
+  },
+  {
+    "id": 11,
+    "playerImage": "https://i.ibb.co.com/C374kdB6/217.png",
+    "playerName": "Mohammad Nabi",
+    "playerCountry": "Afghanistan",
+    "playingRole": "All-rounder",
+    "rating": 8.6,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Offbreak",
+    "price": 98000
+  },
+  {
+    "id": 12,
+    "playerImage": "https://i.ibb.co.com/WWR11tPg/545-camedia.png",
+    "playerName": "Liton Das",
+    "playerCountry": "Bangladesh",
+    "playingRole": "WK batsman",
+    "rating": 8.3,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 89000
+  },
+  {
+    "id": 13,
+    "playerImage": "https://i.ibb.co.com/hTYhFRw/image-80-700x700.jpg",
+    "playerName": "Sunil Narine",
+    "playerCountry": "West Indies",
+    "playingRole": "All-rounder",
+    "rating": 9.0,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 130000
+  },
+  {
+    "id": 14,
+    "playerImage": "https://i.ibb.co.com/cXX8M5MQ/557-camedia.png",
+    "playerName": "Kusal Perera",
+    "playerCountry": "Sri Lanka",
+    "playingRole": "Batsman",
+    "rating": 8.0,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm medium",
+    "price": 72000
+  },
+  {
+    "id": 15,
+    "playerImage": "https://i.ibb.co.com/ycLKnS2h/134.png",
+    "playerName": "Mujeeb Ur Rahman",
+    "playerCountry": "Afghanistan",
+    "playingRole": "Bowler",
+    "rating": 8.9,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 96000
+  },
+  {
+    "id": 16,
+    "playerImage": "https://i.ibb.co.com/rG9jfhRd/63875.webp",
+    "playerName": "Mehidy Hasan Miraz",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 8.4,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 82000
+  },
+  {
+    "id": 17,
+    "playerImage": "https://i.ibb.co.com/FbQH1gst/822-camedia.png",
+    "playerName": "Ben Cutting",
+    "playerCountry": "Australia",
+    "playingRole": "All-rounder",
+    "rating": 7.8,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm medium-fast",
+    "price": 79000
+  },
+  {
+    "id": 18,
+    "playerImage": "https://i.ibb.co.com/Pz9gFzzn/693-camedia.png",
+    "playerName": "Sabbir Rahman",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 7.2,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Legbreak",
+    "price": 60000
+  },
+  {
+    "id": 19,
+    "playerImage": "https://i.ibb.co.com/S4HdHjXd/627-camedia.png",
+    "playerName": "Carlos Brathwaite",
+    "playerCountry": "West Indies",
+    "playingRole": "All-rounder",
+    "rating": 8.1,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 87000
+  },
+  {
+    "id": 20,
+    "playerImage": "https://i.ibb.co.com/NnNZcTyr/nurul-hasan-sohan.png",
+    "playerName": "Nurul Hasan Sohan",
+    "playerCountry": "Bangladesh",
+    "playingRole": "WK batsman",
+    "rating": 7.7,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 73000
+  }
+]
