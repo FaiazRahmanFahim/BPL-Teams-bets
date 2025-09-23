@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost">
+        <a>
           <img className="w-14 h-14" src={logo} alt="" />
         </a>
       </div>

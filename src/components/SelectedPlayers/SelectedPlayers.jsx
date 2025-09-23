@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const SelectedPlayers = () => {
-    return (
-     <h3>Selected Player</h3>
-    );
+  return (
+    <div className="mt-2.5 max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+    </div>
+  );
 };
 
 export default SelectedPlayers;

@@ -68,7 +68,7 @@ const Footer = () => {
     //     </form>
     //   </div>
     // </footer>
-    <footer className="flex flex-col justify-center items-center mt-8 bg-black pb-12 p-4 space-y-8">
+    <footer className="flex flex-col justify-center items-center mt-20 bg-black pb-12 p-4 space-y-8">
       <div className="w-full max-w-[1320px] px-4">
         <div className="p-4 rounded-2xl backdrop-blur-md bg-white/20 border border-white/30 shadow-md">
           <div
