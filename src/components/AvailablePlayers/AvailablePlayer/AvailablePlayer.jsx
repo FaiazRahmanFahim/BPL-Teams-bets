@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import userLogo from "../../../assets/3289576-individual-man-people-person_107097.png";
 import flagLogo from "../../../assets/flag-black-rectangular-tool-symbol-on-a-pole_icon-icons.com_54533.png";
 import { toast } from "react-toastify";
@@ -10,20 +10,31 @@ const AvailablePlayer = ({
   purchasePlayers,
   setPurchasePlayers,
 }) => {
-  const [isSelected, setIsSelected] = useState(false);
+  // Check if this player is already selected
+  const isSelected = purchasePlayers.some(
+    (player) => player.id === availablePlayer.id
+  );
 
   const handleBuyPlayer = (PlayerData) => {
     if (availableBalance < PlayerData.price) {
-      toast("Insufficient Account Balance");
+      toast.error("Insufficient Account Balance");
       return;
     }
     if (purchasePlayers.length >= 6) {
-      toast("You can’t purchase more than 6 players!");
+      toast.error("You can't purchase more than 6 players!");
       return;
     }
-    setIsSelected(true);
+    // Check if player is already selected
+    const isAlreadySelected = purchasePlayers.find(
+      (player) => player.id === PlayerData.id
+    );
+    if (isAlreadySelected) {
+      toast.error("Player already selected!");
+      return;
+    }
     setAvailableBalance(availableBalance - PlayerData.price);
     setPurchasePlayers([...purchasePlayers, PlayerData]);
+    toast.success(`${PlayerData.playerName} added successfully!`);
   };
 
   return (
@@ -77,7 +88,7 @@ const AvailablePlayer = ({
             }}
             className="btn rounded-xl text-gray-500"
           >
-            {isSelected === true ? "Selected" : "Choose Plater"}
+            {isSelected === true ? "Selected" : "Choose Player"}
           </button>
         </div>
       </div>

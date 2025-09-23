@@ -89,9 +89,9 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="input join-item w-full sm:w-[300px] md:w-[460px] text-gray-600 font-medium"
+                className="input w-full sm:w-[300px] md:w-[460px] text-gray-600 font-medium"
               />
-              <button className="btn btn-warning w-full sm:w-auto join-item text-black">
+              <button className="btn bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-orange-500 hover:to-red-500 w-full sm:w-auto text-white font-bold shadow-lg transform hover:scale-105 transition-all duration-300">
                 Subscribe
               </button>
             </div>
@@ -123,13 +123,13 @@ const Footer = () => {
             <p>
               Subscribe to our newsletter for the <br /> latest updates.
             </p>
-            <div className="join flex flex-col sm:flex-row gap-3">
+            <div className="join">
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="input input-bordered join-item text-gray-600 font-medium w-full sm:w-auto"
+                className="input input-bordered join-item text-gray-600 font-medium"
               />
-              <button className="btn btn-warning join-item text-black w-full sm:w-auto">
+              <button className="btn bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-orange-500 hover:to-red-500 join-item text-white font-bold shadow-lg transform hover:scale-105 transition-all duration-300">
                 Subscribe
               </button>
             </div>

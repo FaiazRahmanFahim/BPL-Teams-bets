@@ -43,7 +43,7 @@ const Navbar = ({ availableBalance }) => {
         </div>
         <a>
           <img className="w-14 h-14 hidden lg:flex" src={logo} alt="" />
-          <button className="btn btn-soft lg:hidden btn-warning">
+          <button className="btn bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-yellow-500 hover:to-amber-600 lg:hidden text-black font-bold shadow-lg transform hover:scale-105 transition-all duration-300">
             <span>{availableBalance}</span> Coin{" "}
             <img className="w-4" src={dollarLogo} alt="" />
           </button>
@@ -64,7 +64,7 @@ const Navbar = ({ availableBalance }) => {
             <a>Schedules</a>
           </li>
         </ul>
-        <button className="btn btn-soft btn-warning">
+        <button className="btn bg-gradient-to-r from-amber-400 to-yellow-500 hover:from-yellow-500 hover:to-amber-600 text-black font-bold shadow-lg transform hover:scale-105 transition-all duration-300">
           <span>{availableBalance}</span> Coin{" "}
           <img className="w-4" src={dollarLogo} alt="" />
         </button>

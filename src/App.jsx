@@ -5,7 +5,7 @@ import AvailablePlayers from "./components/AvailablePlayers/AvailablePlayers";
 import SelectedPlayers from "./components/SelectedPlayers/SelectedPlayers";
 import Footer from "./components/Footer/Footer";
 import { Suspense, useState } from "react";
-import { ToastContainer } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 
 const availablePlayersPromise = fetch("/playersData.json").then((response) =>
   response.json()
@@ -20,6 +20,7 @@ function App() {
     const filterData = purchasePlayers.filter((person) => person.id !== p.id);
     setPurchasePlayers(filterData);
     setAvailableBalance(availableBalance + p.price);
+    toast.success(`${p.playerName} removed successfully!`);
   };
 
   return (
@@ -35,17 +36,21 @@ function App() {
         <div className="join">
           <button
             onClick={() => setToggle(true)}
-            className={`btn border-r-0 rounded-l-xl font-semibold ${
-              toggle === true ? " bg-[#E7FE29]" : ""
-            }  cursor-pointer`}
+            className={`btn border-r-0 rounded-l-xl font-semibold transition-all duration-300 ${
+              toggle === true
+                ? "bg-gradient-to-r from-[#E7FE29] to-[#d4f017] text-black shadow-lg"
+                : "bg-gradient-to-r from-gray-200 to-gray-300 hover:from-gray-300 hover:to-gray-400 text-gray-700"
+            } cursor-pointer`}
           >
             Available
           </button>
           <button
             onClick={() => setToggle(false)}
-            className={`btn border-l-0 rounded-r-xl font-semibold ${
-              toggle === false ? " bg-[#E7FE29]" : ""
-            }  cursor-pointer`}
+            className={`btn border-l-0 rounded-r-xl font-semibold transition-all duration-300 ${
+              toggle === false
+                ? "bg-gradient-to-r from-[#E7FE29] to-[#d4f017] text-black shadow-lg"
+                : "bg-gradient-to-r from-gray-200 to-gray-300 hover:from-gray-300 hover:to-gray-400 text-gray-700"
+            } cursor-pointer`}
           >
             Selected<span>({purchasePlayers.length})</span>
           </button>
@@ -81,8 +86,8 @@ function App() {
           ></SelectedPlayers>
         </Suspense>
       )}
-      <ToastContainer />
       <Footer></Footer>
+      <ToastContainer />
     </>
   );
 }

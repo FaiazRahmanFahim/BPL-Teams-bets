@@ -15,7 +15,9 @@ const Banner = () => {
       <h4 className="font-medium text-xl md:text-2xl text-gray-300">
         Beyond Boundaries Beyond Limits
       </h4>
-      <button className="btn bg-[#e2f828]">Claim Free Credit</button>
+      <button className="btn bg-gradient-to-r from-[#e2f828] to-[#b8e619] hover:from-[#b8e619] hover:to-[#9fd617] text-black font-bold shadow-lg transform hover:scale-105 transition-all duration-300">
+        Claim Free Credit
+      </button>
     </div>
   );
 };
